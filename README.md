@@ -90,5 +90,17 @@ pip install -r requirements.txt
 ```
 
 ### Run Tests
+
 ```bash
-# Run all tests +
+# Run all tests + generate report
+.\run.bat
+
+# Run tests only
+.\test.bat
+
+# Generate report only
+.\report.bat
+
+# Run specific test
+pytest tests/ -k "test_get_all_bookings" -v
+```
