@@ -1,0 +1,6 @@
+@echo off
+echo Running tests...
+pytest tests/
+echo Opening report...
+allure serve allure-results
+pause
