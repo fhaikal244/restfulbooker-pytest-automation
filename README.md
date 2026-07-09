@@ -1,3 +1,40 @@
+# Restful Booker API Automation 🐍
+
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+[![CI](https://github.com/fhaikal244/restfulbooker-pytest-automation/actions/workflows/pytest.yml/badge.svg)](https://github.com/fhaikal244/restfulbooker-pytest-automation/actions/workflows/pytest.yml)
+
+API Automation Framework built from scratch using Pytest & Requests with Data Driven approach.
+
+---
+
+## 🛠️ Tech Stack
+- **Pytest** — Test Framework
+- **Requests** — API Testing
+- **Allure** — Test Reporting
+- **GitHub Actions** — CI/CD
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+├── .github/workflows/    # CI/CD pipeline
+├── tests/                # Test cases
+│   ├── test_auth.py
+│   └── test_booking.py
+├── data/                 # JSON test data
+├── utils/                # API helper
+├── configs/              # Configuration
+├── conftest.py           # Pytest fixtures
+├── pytest.ini            # Pytest config
+├── requirements.txt      # Dependencies
+├── run.bat               # Run all + report
+├── test.bat              # Run tests only
+└── report.bat            # Generate report
+```
+
 ---
 
 ## ✅ Test Coverage
@@ -21,7 +58,6 @@
 ---
 
 ## 🎯 Design Pattern
-
 - **Data Driven Testing** — test data from JSON files
 - **Helper Class** — reusable API helper
 - **Fixtures** — reusable setup & teardown
@@ -32,7 +68,7 @@
 ## 🚀 Getting Started
 
 ### Prerequisites
-```bash
+```plaintext
 Python 3.11+
 pip
 Allure CLI
@@ -55,30 +91,4 @@ pip install -r requirements.txt
 
 ### Run Tests
 ```bash
-# Run all tests + generate report
-.\run.bat
-
-# Run tests only
-.\test.bat
-
-# Generate report only
-.\report.bat
-
-# Run specific test
-pytest tests/ -k "test_get_all_bookings" -v
-```
-
----
-
-## 🌐 Target Application
-
-| | |
-|---|---|
-| URL | https://restful-booker.herokuapp.com |
-| Docs | https://restful-booker.herokuapp.com/apidoc |
-
----
-
-## 📊 CI/CD
-
-Automated testing runs on every push via GitHub Actions.
+# Run all tests +
