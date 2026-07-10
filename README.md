@@ -4,6 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 [![CI](https://github.com/fhaikal244/restfulbooker-pytest-automation/actions/workflows/pytest.yml/badge.svg)](https://github.com/fhaikal244/restfulbooker-pytest-automation/actions/workflows/pytest.yml)
+![Allure Report](https://img.shields.io/badge/Allure-Report-orange?style=for-the-badge)
 
 API Automation Framework built from scratch using Pytest & Requests with Data Driven approach.
 
@@ -104,3 +105,11 @@ pip install -r requirements.txt
 # Run specific test
 pytest tests/ -k "test_get_all_bookings" -v
 ```
+
+## 📊 Test Report
+
+| Report | Link |
+|---|---|
+| 🔗 Live Allure Report | [View Here](https://fhaikal244.github.io/restfulbooker-pytest-automation) |
+
+> Auto-updated on every push to master 🚀
